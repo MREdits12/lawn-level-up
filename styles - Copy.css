@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #2d2d2d;
+    background-color: #f4fdf4;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Gaming Edit Section */
+.gaming {
+    background-color: #fffbe6;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.gaming h2 {
+    margin-bottom: 1rem;
+}
+
+/* Info Section */
+.info-box {
+    background-color: #e8f5e9;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Plans Section */
+.plans {
+    padding: 2rem 1rem;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.plan {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.plan h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+/* Why Section */
+.why {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.why ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+/* Contact */
+.contact {
+    background-color: #d0f0c0;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.contact a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .plan-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 0.95rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero .btn {
+        padding: 0.6rem 1.2rem;
+    }
+}
